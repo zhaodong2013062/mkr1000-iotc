@@ -8,6 +8,7 @@
 #include <stdarg.h>
 #include <time.h>
 #include <SPI.h>
+#include <avr/dtostrf.h>
 
 // are we compiling against the Arduino MKR1000
 #if defined(ARDUINO_SAMD_MKR1000) && !defined(WIFI_101)
